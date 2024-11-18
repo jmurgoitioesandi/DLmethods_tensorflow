@@ -1,0 +1,13 @@
+python3 WAE_trainer.py \
+        --dataname=training_dataset_slide0B44E01.npy \
+	--slide_num=A8A805 \
+        --n_epoch=3\
+        --z_dim=50 \
+        --lambda_param=100. \
+        --n_train=30000000 \
+        --batch_size=500 \
+        --learn_rate=1e-5  \
+        --lr_sched=True \
+        --savefig_freq=2 \
+        --save_suffix=_RCD_Denseblock_resources \
+        --act_function=ReLU \
